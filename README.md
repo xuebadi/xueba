@@ -8,8 +8,8 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/xuebadi/xunba.git
-cd xunba
+git clone https://github.com/xuebadi/xueba.git
+cd xueba
 
 # 运行构建脚本
 chmod +x build-ubuntu.sh
@@ -77,22 +77,22 @@ wget https://www.modelscope.cn/models/aplux/Qwen2.5-VL-3B-Instruct-q4_k_m/resolv
 ## 构建产物
 
 构建完成后，输出文件在 `dist/` 目录：
-- `xunba-1.0.0.AppImage` - 便携版，无需安装
-- `xunba_1.0.0_amd64.deb` - Debian/Ubuntu 安装包
+- `xueba-1.0.0.AppImage` - 便携版，无需安装
+- `xueba_1.0.0_amd64.deb` - Debian/Ubuntu 安装包
 
 ## 安装和运行
 
 ### AppImage 方式
 ```bash
-chmod +x xunba-1.0.0.AppImage
-./xunba-1.0.0.AppImage
+chmod +x xueba-1.0.0.AppImage
+./xueba-1.0.0.AppImage
 ```
 
 ### deb 方式
 ```bash
-sudo dpkg -i xunba_1.0.0_amd64.deb
+sudo dpkg -i xueba_1.0.0_amd64.deb
 sudo apt-get install -f  # 修复依赖
-xunba  # 启动应用
+xueba  # 启动应用
 ```
 
 ## 常见问题
